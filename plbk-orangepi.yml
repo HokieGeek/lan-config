@@ -1,0 +1,5 @@
+---
+- name: Configure an orange pi board
+
+  # TODO: add the user stuff
+  #       add the blah blah
