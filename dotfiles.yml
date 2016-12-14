@@ -1,0 +1,9 @@
+---
+- name: Install the dotfiles repo
+  tasks:
+      - name: Retrieve dotfiles repo
+        git:
+            repo: git@github.com:HokieGeek/dotfiles.git
+            dest: ~
+        ## TODO: call setup.sh
+        ##       recursive clone

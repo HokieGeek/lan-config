@@ -1,0 +1,11 @@
+---
+- name: Configure an orange pi board
+  tasks:
+      - name: Add the user
+        shell: >
+            adduser andres
+
+      - include: dotfiles.yml
+
+  # TODO: add the user stuff
+  #       add the blah blah

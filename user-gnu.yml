@@ -1,0 +1,7 @@
+---
+- name: Add user and user config
+  tasks:
+      - name: Create user
+        user: andres
+        shell: /bin/zsh
+        group: andres
